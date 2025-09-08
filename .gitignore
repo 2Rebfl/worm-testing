@@ -36,7 +36,6 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json
 yarn.lock
 
 # React build artifacts
@@ -60,5 +59,8 @@ recovery_*.json
 !ui/frontend/src/*.abi.json
 !ui/frontend/public/manifest.json
 !ui/frontend/package.json
+!ui/frontend/package-lock.json
+!ui/frontend/tsconfig.json
 !ui/backend/package.json
+!ui/backend/package-lock.json
 !miner/Cargo.toml
